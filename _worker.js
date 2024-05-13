@@ -27,7 +27,7 @@ let epeius = 'ed';
 let RproxyIP = 'false';
 let proxyIPs = [
 	'proxyip.multacom.fxxk.dedyn.io',
-	'proxyip.jp.fxxk.dedyn.io#JP",
+	'proxyip.jp.fxxk.dedyn.io#JP',
 	'roxyip.hk.fxxk.dedyn.io#HK',
 	
 ];
