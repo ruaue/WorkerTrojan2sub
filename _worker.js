@@ -329,9 +329,9 @@ export default {
 			
 			if (!host || !pw) {
 				const responseText = `
-			缺少必填参数：host 和 pw
-			Missing required parameters: host and uuid
-			پارامترهای ضروری وارد نشده: هاست و یوآی‌دی
+                        缺少必填参数：host 和 uuid(password)
+			Missing required parameters: host and uuid(password)
+		
 			
 			${url.origin}/sub?host=[your host]&pw=[your password]&path=[your path]
 			
@@ -495,7 +495,7 @@ export default {
 
 				const response = new Response(base64Response, {
 					headers: { 
-						"Content-Disposition": `attachment; filename*=utf-8''${encodeURIComponent(FileName)}; filename=${FileName}`,
+					//	"Content-Disposition": `attachment; filename*=utf-8''${encodeURIComponent(FileName)}; filename=${FileName}`,
 						"content-type": "text/plain; charset=utf-8",
 						"Profile-Update-Interval": `${SUBUpdateTime}`,
 						"Subscription-Userinfo": `upload=${UD}; download=${UD}; total=${total}; expire=${expire}`,
@@ -521,7 +521,7 @@ export default {
 
 			return new Response(subconverterContent, {
 				headers: { 
-					"Content-Disposition": `attachment; filename*=utf-8''${encodeURIComponent(FileName)}; filename=${FileName}`,
+				//	"Content-Disposition": `attachment; filename*=utf-8''${encodeURIComponent(FileName)}; filename=${FileName}`,
 					"content-type": "text/plain; charset=utf-8",
 					"Profile-Update-Interval": `${SUBUpdateTime}`,
 					"Subscription-Userinfo": `upload=${UD}; download=${UD}; total=${total}; expire=${expire}`,
