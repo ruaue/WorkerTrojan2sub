@@ -26,7 +26,10 @@ let link = '';
 let epeius = 'ed';
 let RproxyIP = 'false';
 let proxyIPs = [
-	'proxyip.aliyun.fxxk.dedyn.io',
+	'proxyip.multacom.fxxk.dedyn.io',
+	'proxyip.jp.fxxk.dedyn.io#JP",
+	'roxyip.hk.fxxk.dedyn.io#HK',
+	
 ];
 let CMproxyIPs = [
 	//'proxyip.aliyun.fxxk.dedyn.io:HK',
